@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.example.petsapp.data.PetContract.PetEntry;
 
 public class PetDbHelper extends SQLiteOpenHelper {
+
     public static final String LOG_TAG = PetDbHelper.class.getSimpleName();
 
     /** Name of the database file */
